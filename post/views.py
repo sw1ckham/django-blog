@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django import timzone
-from .models import post
+from .models import Post
 from .forms import BlogPostForm
 
 def get_posts(request):
